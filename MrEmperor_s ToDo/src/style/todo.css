@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: fantasy;
+    background-color: lavender;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgba(41, 38, 38, 0.55);
+    margin: 10px;
+    background-color: rgb(142, 206, 194);
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+    -moz-box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+    box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+}
+
+.done-toggle {
+    color: whitesmoke;
+    background-color: rgb(198, 177, 108);
+    margin-top: 1%;
+    border-radius: 10px;
+}
+
+.add-button {
+    color: white;
+    background-color: rgb(70, 152, 108);
+    font: bold;
+    border-radius: 20px;
+}
+
+.delete-button {
+    background-color: gold;
+}
+
+.todo-card p {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 1%;
+    font-size: 0.8em;
+}
+
+.todo-list {
+    display: grid;
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+.todo-card {
+    color: whitesmoke;
+    margin: 10px;
+    background-color: rgb(199, 148, 247);
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+    -moz-box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+    box-shadow: 1px 0px 6px 0px rgba(191, 154, 7, 1);
+
+}
+
+.done {
+    color: black;
+    background-color: rgb(240, 228, 228);
+    order: 1;
+    text-decoration: line-through;
+}
